@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animated Login Form | CodingNepal</title>
+    <link rel="stylesheet" href="../static/css/login.css">
+  </head>
+  <body>
+    <div class="center" style="height: 450px;">
+      <h1>Admin Login</h1>
+      <form method="post" action="/adminLogin">
+        <div class="txt_field">
+          <input type="email"  name="Email"  required>
+          <span></span>
+          <label>Email</label>
+        </div>
+        <div class="txt_field">
+            <input type="password" class="form-control" name="AdminID" required>
+            <span></span>
+            <label>AdminID</label>
+          </div>
+        <div class="txt_field">
+          <input type="password" class="form-control" name="Password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass"><a style="text-decoration: none; color: rgb(155, 150, 150);" href="/forget">Forgot Password?</a></div>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+  </body>
+</html>
